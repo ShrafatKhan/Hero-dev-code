@@ -93,3 +93,129 @@ nav .manu a{
   /* image ar niche je bydefault gap thake saida dur korar jonno */
   vertical-align: middle;
 }
+
+.about{
+  margin: 69px 14%;
+  background-color: #FFF8F3;
+  /* background-color: burlywood; */
+}
+.about .about-container{
+  padding: 131px 12%;
+}
+.about .about-container h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  color: #181818;
+}
+.about .about-container .discription{
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.about .about-container .info{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 30px;
+}
+
+.skills{
+  text-align: center;
+  padding: 0px 14% 130px 14%;
+}
+.skills .skills-container h2{
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.skills .skills-container .skills-p{
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+  color: #757575;
+  padding: 0px 13% 50px 13%;
+}
+.skills .skills-card{
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  gap: 24px;
+}
+.skills .skills-card .card{
+  /* border: 2px solid black; */
+  justify-content: space-between;
+  padding: 30px;
+  box-shadow: 0px 0px 10px #b0e9f0;
+}
+.skills .skills-card .card img{
+  height: 44px;
+  width: 44px;
+  margin-bottom: 30px;
+}
+.skills .skills-card .card h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+.skills .skills-card .card p{
+  font-size: 16px;
+  color: #474747;
+  line-height: 28px;
+}
+
+
+.resume{
+  text-align: center;
+  align-items: center;
+  margin: 0px 14% 120px 14%;
+}
+.resume h2{
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 80px;
+}
+.resume .edu-ex{
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.education-details,.experience-details{
+  /* width: 31%; */
+  max-width: 511px;
+}
+
+.education h3, .experience h3{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: auto;
+  padding-bottom: 30px;
+  color: #474747;
+}
+.education-details h3, .experience-details h3{
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+.education-details h4, .experience-details h4{
+  font-size: 20px;
+  font-weight: 550;
+  color: #474747;
+}
+.education-details p, .experience-details p{
+  font-size: 16px;
+  line-height: 27px;
+  padding-right: 10px;
+  margin: 20px 0px 30px 0px;
+}
+
+.Contact{
+  display: flex;
+  justify-content: space-between;
+}
+.Contact .massage{
+  display: block;
+}
