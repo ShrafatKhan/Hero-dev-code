@@ -30,7 +30,7 @@
 /* Main style  */
 header{
   background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
-  background-position: left bottom, bottom right;
+  background-position: 20px 38px, bottom right;
   background-repeat: no-repeat;
   padding-top: 51px;
 }
@@ -170,7 +170,7 @@ nav .manu a{
 .resume{
   text-align: center;
   align-items: center;
-  margin: 0px 14% 120px 14%;
+  margin: 0px 14% 0px 14%;
 }
 .resume h2{
   font-size: 35px;
@@ -211,11 +211,54 @@ nav .manu a{
   padding-right: 10px;
   margin: 20px 0px 30px 0px;
 }
-
+footer{
+  background-color: #FFF8F3;
+  padding-bottom: 120px;
+}
 .Contact{
   display: flex;
-  justify-content: space-between;
+  gap: 120px;
+  padding-bottom: 120px;
+  padding: 120px 14% 120px 14%;
+  margin-top: 120px;
 }
-.Contact .massage{
-  display: block;
+.Contact  h2{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  padding-bottom: 20px;
+}
+.Contact .connect p{
+  line-height: 28px;
+  font-size: 16px;
+  color: #474747;
+  padding-bottom: 30px;
+  max-width: 576px;
+}
+.Contact .connect a{
+  margin-right: 24px;
+}
+form{
+  padding-right: 14%;
+}
+form .massage{
+}
+.form .massage h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.form-element input[type="text"]{
+  width: 461px;
+  height: 60px;
+  margin-bottom: 24px;
+  padding: 18px 349px 18px 30px;
+  border: none;
+}
+.form-element textarea{
+  width: 461px;
+  height: 180px;
+  margin-bottom: 24px;
+  padding: 18px 349px 134px 30px;
+  border: none;
 }
